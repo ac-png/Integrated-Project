@@ -20,7 +20,7 @@ class Connection
         $host = "localhost";
         $database = DATABASE_NAME;
         $username = "root";
-        $password = "root"; // this is password for MAMP, Xampp is blank (change this)
+        $password = ""; // password for MAMP is "root", Xampp is blank
 
         $dsn = "mysql:dbname=" . $database . ";host=" . $host;
 
